@@ -1,0 +1,52 @@
+.header-desktop {
+  background-color: #54c0a6;
+  height: 220px;
+}
+.content-desktop {
+  margin: auto;
+  width: 65%;
+  top: -130px;
+  position: relative;
+  background-color: white;
+  border-radius: 12px;
+  padding: 10px;
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  grid-gap: 10px;
+  padding: 10px;
+}
+
+.grid-container > div {
+  padding: 20px;
+  font-size: 30px;
+}
+.button {
+  background-color: #54c0a6;
+  border: none;
+  color: white;
+  width: 99%;
+  padding: 10px;
+  border-radius: 6px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.shadow{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.header-mobile {
+  background-color: #54c0a6;
+  height: auto;
+  color: white;
+}
+.width-100{
+  width: 100% !important;
+}
